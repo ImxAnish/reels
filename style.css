@@ -1,0 +1,52 @@
+*{
+    padding:0 ;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: black;
+}
+#Hero{
+display: flex;
+}
+.Hero-img{
+    width: 100%;
+}
+.hero-right{
+    width: 50%;
+    padding: 2rem;
+}
+.Hero-left{
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#About{
+    display: flex;
+}
+
+.About-left{
+    width: 50%;
+}
+
+.About-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.About-img{
+    width: 100%;
+}
